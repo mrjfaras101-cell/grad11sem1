@@ -200,7 +200,7 @@ function renderHome() {
         <h3>روابط التتبع والبناء</h3>
         <p>استخدم Python Tutor لتتبع تنفيذ الكود، وdraw.io لبناء مخطط سير العملية.</p>
         <div class="resource-links">
-          <a class="resource-link" href="https://pythontutor.com/python.html" target="_blank" rel="noopener"><span><strong>Python Tutor</strong><small> تتبع البرنامج خطوة بخطوة</small></span><b>↗</b></a>
+          <a class="resource-link" href="https://pythontutor.com" target="_blank" rel="noopener"><span><strong>Python Tutor</strong><small> تتبع البرنامج خطوة بخطوة</small></span><b>↗</b></a>
           <a class="resource-link" href="https://app.diagrams.net/" target="_blank" rel="noopener"><span><strong>draw.io</strong><small> رسم مخطط سير اللعبة</small></span><b>↗</b></a>
           <a class="resource-link" href="https://www.python.org/" target="_blank" rel="noopener"><span><strong>Python الرسمي</strong><small> التحميل والمصادر الموثوقة</small></span><b>↗</b></a>
         </div>
