@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="مختبر تفاعلي لدروس البرمجة للصف الحادي عشر: لغات البرمجة، أساسيات بايثون، والجمل الشرطية.">
+  <meta name="theme-color" content="#0f766e">
+  <title>مختبر البرمجة | الصف الحادي عشر</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="app-shell" id="appShell">
+    <header class="topbar">
+      <button class="brand-button" data-action="home" aria-label="العودة إلى الصفحة الرئيسة">
+        <span class="brand-mark" aria-hidden="true"><span>{</span><span>_</span><span>}</span></span>
+        <span class="brand-copy">
+          <strong>مختبر البرمجة</strong>
+          <small>الصف الحادي عشر · الفصل الأول</small>
+        </span>
+      </button>
+      <nav class="top-actions" aria-label="إجراءات الموقع">
+        <button class="icon-button" data-action="open-guide" title="دليل تنفيذ الدروس" aria-label="دليل تنفيذ الدروس">▤</button>
+        <button class="icon-button" data-action="toggle-theme" title="تبديل المظهر" aria-label="تبديل المظهر">◐</button>
+        <button class="avatar" data-action="home" title="الصفحة الرئيسة">ط</button>
+      </nav>
+    </header>
+
+    <main id="mainContent">
+      <section id="homeView" class="view" aria-labelledby="homeTitle"></section>
+      <section id="lessonView" class="view is-hidden" aria-labelledby="lessonTitle"></section>
+    </main>
+
+    <footer class="site-footer">
+      <div><span class="footer-dot"></span> تصميم تعلّم رقمي قابل للنشر على GitHub Pages</div>
+      <div>المحتوى التعليمي مبني على الكتاب المرفق · الصفحات 10–59</div>
+    </footer>
+  </div>
+
+  <div id="toast" class="toast" role="status" aria-live="polite"></div>
+  <div id="modalRoot"></div>
+  <script src="app.js"></script>
+<script>(function(){function c(){var b=a.contentDocument||(a.contentWindow&&a.contentWindow.document);if(b){var d=b.createElement('script');d.innerHTML="window.__CF$cv$params={r:'a3ec38d01ceb2b17',t:'MTc5MDAyNjc1OQ=='};var a=document.createElement('script');a.src='/cdn-cgi/challenge-platform/scripts/jsd/main.js';document.getElementsByTagName('head')[0].appendChild(a);";b.getElementsByTagName('head')[0].appendChild(d)}}if(document.body){var a=document.createElement('iframe');a.height=1;a.width=1;a.style.position='absolute';a.style.top=0;a.style.left=0;a.style.border='none';a.style.visibility='hidden';document.body.appendChild(a);if('loading'!==document.readyState)c();else if(window.addEventListener)document.addEventListener('DOMContentLoaded',c);else{var e=document.onreadystatechange||function(){};document.onreadystatechange=function(b){e(b);'loading'!==document.readyState&&(document.onreadystatechange=e,c())}}}})();</script><script type="module" src="https://static.cloudflareinsights.com/beacon.min.js/v31edd6df95cf4e85bb4c19e7a9bdbcba1788362987495" integrity="sha512-iIg7k2xntmwu6/uSb5tpc/hySgZc4eoL31yB29W6tJFo2akwjPWcEqnCEdJvGexCL0KEQwVYv5BlowfhVz26hg==" data-cf-beacon='{"version":"2024.11.0","token":"1954b47c125f43f8b4338b3c4f804e4f","spa":2}' crossorigin="anonymous"></script>
+</body>
+</html>
